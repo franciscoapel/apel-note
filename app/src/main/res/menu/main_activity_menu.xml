@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_activity_menu_nuevo"
+        android:title="@string/main_activity_menu"
+        android:icon="@drawable/ic_add_circle_black_24dp"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/main_activity_menu_buscar"
+        android:title="@string/main_activity_menu"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/main_activity_menu_opciones"
+        android:title="@string/main_activity_menu"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/main_activity_menu_opciones_configuracion"
+                android:title="@string/main_activity_menu_opciones_configuracion"
+                android:icon="@drawable/ic_settings_black_24dp"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/main_activity_menu_opciones_acercade"
+                android:title="@string/main_activity_menu_opciones_acercade"
+                android:icon="@drawable/ic_error_outline_black_24dp"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+
+
+    </item>
+</menu>

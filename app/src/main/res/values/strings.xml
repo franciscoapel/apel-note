@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ApelNote</string>
+
+    <string name="main_activity_menu">Menu</string>
+    <string name="main_activity_menu_opciones_configuracion">Configuracion</string>
+    <string name="main_activity_menu_opciones_acercade">Acerca de</string>
+</resources>

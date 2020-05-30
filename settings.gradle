@@ -1,0 +1,2 @@
+rootProject.name='ApelNote'
+include ':app'
